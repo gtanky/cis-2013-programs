@@ -1,24 +1,22 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #F9BF97;
+    background: #666666;
 }
 
 #content {
     width: 600px;
     margin: 10px auto;
     padding: 5px 20px;
-    background: #FFF5DB;
+    background: yellow;
     border: 1px solid #000000;
 }
 
 h1 {
 	text-align: center;
-    color: #677880
 }
 
 p {
-	color: #7B8C91;
+	color: blue;
 	font-weight: bold;
 	text-align: center;
 }
