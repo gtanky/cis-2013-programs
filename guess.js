@@ -10,10 +10,10 @@ var intMax, intMin, intRandom, intGuess, intCount, intPoints;
  * and then validates that the user entered an actual number and make sure that the
  * number is at least 0.
 */
-    intMin = parseInt(prompt("Choose the lowest number (but no lower than 0) in your guessing range:\n"));
+    intMin = parseInt(prompt("Please enter the lowest number (but no lower than 0) in your guessing range:\n"));
     while (isNaN(intMin) || (intMin<0))
         {
-            intMin = parseInt (prompt("I'm sorry but your lowest number choice was invalid.\n" + "Please choose the lowest number (but no lower than 0) in your guessing range:"));                  
+            intMin = parseInt (prompt("I'm sorry but your lowest number choice was invalid.\n" + "Please enter the lowest number (but no lower than 0) in your guessing range:"));                  
         }
         alert("Lowest number = " + intMin);
    
@@ -22,10 +22,10 @@ var intMax, intMin, intRandom, intGuess, intCount, intPoints;
  * and then validates that the user entered an actual number and make sure that the
  * number is at least 2 more than the minimum (so that there is some guessing involved).
 */
-    intMax = parseInt(prompt("Choose the highest number in your guessing range: \n" + "Note: your highest number must be at lease 2 more than 0"));
+    intMax = parseInt(prompt("Please enter the highest number in your guessing range: \n" + "Note: your highest number must be at least 2 more than 0"));
     while (isNaN(intMax) || (intMax < intMin + 2))
         {
-     intMax = parseInt(prompt("I'm sorry but your highest number choice was invalid.\n" + "Please choose the highest number in your guessing range:"));
+     intMax = parseInt(prompt("I'm sorry but your highest number choice was invalid.\n" + "Please enter the highest number in your guessing range:"));
         }
     alert("Highest number = " + intMax);
 
