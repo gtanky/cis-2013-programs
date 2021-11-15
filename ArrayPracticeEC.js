@@ -11,7 +11,7 @@ var stringMessage = "";
 
 var intCount;
 
-for (intCount=0; intCount<=arrayNames.length; intCount++)
+for (intCount=0; intCount<arrayNames.length; intCount++)
 {
     stringMessage = stringMessage + arrayNames[intCount] + " plays " + arrayInstruments[intCount] + "\n";
 }
