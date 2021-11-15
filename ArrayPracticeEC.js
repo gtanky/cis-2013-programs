@@ -29,7 +29,7 @@ for (var x=1; x <= 12; x++)
     } stringTimesTable = stringTimesTable + "\n";
 }
 
-alert(stringTimesTable)
+alert(stringTimesTable);
 
 
 
